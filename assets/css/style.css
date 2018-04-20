@@ -1,0 +1,120 @@
+body {
+    width: 100%;
+    background: url("../images/rockywall.png");
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+    .wholething {
+        min-height: 100%;
+        margin-bottom: -50px;
+    }
+
+    .footer,
+    .push { 
+        height: 25px;
+    }
+
+header {
+    background: #ffffff;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 100px;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    width: 100%;
+    border-bottom: solid 1px;
+    border-color: #cccccc;
+}
+
+h1 {
+    box-sizing: border-box;
+    background: #4aaaa5;
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+    width: 400px;
+    height: 100px;
+    float: left;
+    margin: 0 0;
+    padding-top: 2%;   
+    position: fixed;
+    left: 10%;
+}
+
+.navi {
+    background: lightblue;
+    height: 100px;
+    width: 400px;
+    float: right;
+    position: fixed;
+    right: 10%;
+}
+
+.contactlink {
+    float: right;
+    border-right: solid black 1px;
+    text-align: center;
+    padding-right: 25px;
+    padding-left: 25px;
+    position: relative;
+    top: 40px;
+}
+
+.contactright {
+    border-right: none;
+}
+
+.footer {
+    width: 100%;
+    background: gray;
+    padding-top: 55px;
+    text-align: center;
+    color: white;
+    position: relative;
+    bottom: 0;
+}
+
+.push {
+    height: 50px;
+}
+
+.centermass {
+    width: 960px;
+    height: 100%;
+    background: #ffffff;
+    margin: 0 auto;
+    margin-top: 125px;
+    border: #dddddd solid 1px;
+    
+}
+
+        h2 {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 40px;
+            color: #4aaaa5;
+            font-weight: bold;
+            margin: 25px 25px;
+        }
+
+        .profilepic {
+            height: 200px;
+            width: 200px;
+            margin: 20px 25px 0 25px;
+            object-fit: contain;
+            float: left;
+        }
+
+        p {
+            font-family: Arial, Helvetica, sans-serif;
+            color: #777777;
+            line-height: 25px;
+            margin: 0 25px 25px 25px;
+            
+        }
+
+
